@@ -1,0 +1,2 @@
+learn shell
+cd name
