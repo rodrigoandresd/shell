@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -9 < iacta >> iacta
+tail -10f < iacta >> iacta
