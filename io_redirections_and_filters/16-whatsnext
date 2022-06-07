@@ -1,2 +1,2 @@
 #!/bin/bash
-grep root --max-count=3 /etc/passwd
+grep root | grep --max-count=3 /etc/passwd
