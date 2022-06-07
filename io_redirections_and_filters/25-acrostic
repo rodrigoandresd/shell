@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 | tr \r
+cut -c1 | tr -d \r
