@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name "*.gif" -type f | short
+find -type f -name "*.gif"  | cut -d . | short -f
