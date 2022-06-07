@@ -1,2 +1,2 @@
 #!/bin/bash
-~/.bash_aliases echo hello MyUser
+echo "hello $USERNAME"
