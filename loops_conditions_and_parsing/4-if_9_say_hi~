@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times with while without for and until
+n=0
+while [ $n -le 9 ]
+do
+    echo "Best School"
+    (( n=n+1 ))
+    if [ $n == 8 ]
+    then
+	echo "Hi"
+done
