@@ -5,7 +5,7 @@ while [ $n -le 9 ]
 do
     if [ $n -eq 3 ]
        then
-	   echo -e  "Bad luck"
+	   echo -e  "bad luck"
     elif [ $n -eq 7 ]
     then
 	echo -e "good luck"
