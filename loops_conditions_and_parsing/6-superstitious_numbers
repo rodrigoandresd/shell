@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" repeat 10 times in for bad luck 8 is your chance.
+n=1
+while [ $n -le 20 ]
+do
+    if [ $n -eq 4 ]
+       then
+	   echo -e "4\nbad luck from China"
+    elif [ $n -eq 9 ]
+    then
+	echo -e "9\nbad luck from Japan"
+    elif [ $n -eq 17 ]
+    then
+	echo -e "17\nbad luck from Italy"
+	else   
+    echo "Best School"
+    fi
+    (( n++ ))
+   done
