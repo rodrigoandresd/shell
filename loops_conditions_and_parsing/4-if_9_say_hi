@@ -3,11 +3,11 @@
 n=0
 while [ $n -le 9 ]
 do
+    if [ $n -eq 8 ]
+       then
+       echo -e  "Best School\nHi"
+	else   
     echo "Best School"
-    (( n=n+1 ))
-    if [ $n == 8 ]
-    then
-	echo "Hi"
     fi
-    ((n++))
-done
+    (( n=n+1 ))
+   done
