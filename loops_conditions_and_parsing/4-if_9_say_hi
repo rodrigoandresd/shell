@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times with while without for and until
+# This script is displaying "Best School" 10 times with while in 9 say hi.
 n=0
 while [ $n -le 9 ]
 do
