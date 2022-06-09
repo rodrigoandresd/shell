@@ -9,5 +9,5 @@ do
     then
 	echo "Hi"
     fi
-    (( n++ ))
+    ((n++))
 done
