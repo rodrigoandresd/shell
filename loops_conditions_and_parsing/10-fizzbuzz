@@ -9,7 +9,7 @@ do
     elif [ $(( n%3 )) = 0 ]
        then
 	   echo -e  "Fizz"
-	   elif [ $(( n%15 )) = 0 ]
+	   elif [ $(( n%5 )) = 0 ]
        then
 	   echo -e  "Buzz"
     else
