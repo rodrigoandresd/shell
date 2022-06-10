@@ -2,9 +2,9 @@
 # This script is displaying "Best School" repeat 10 times in for bad luck 8 is your chance.
 n=1
 while [ $n -le 20 ]
-do
-    echo "$Counter"
-    case "$Counter" in
+    do
+    echo "$n"
+    case "$n" in
 4)
     echo "bad luck from China"
     ;;
