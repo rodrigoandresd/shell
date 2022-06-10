@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#  Script bash that displays the numbers from 1 to 100, display alarms with multiples
+n=1
+while [ $n -le 100 ]
+do
+    if [ $n %15 ]
+       then
+	   echo -e  "FizzBuzz"
+    elif [ $n %3 ]
+       then
+	   echo -e  "Fizz"
+	   elif [ $n %15 ]
+       then
+	   echo -e  "Buzz"
+    else
+	echo $n
+    fi
+    (( n=n+1 ))
+   done
