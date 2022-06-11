@@ -8,12 +8,12 @@ then
 elif [ "$1" = "stop" ]
 then
     pkill -f ./manage_my_process 
-    rm --one-file-system /var/run/my_process.pid
+    rm -f /var/run/my_process.pid
     echo "manage_my_process stopped"
 elif [ "$1" = "restart" ]
 then
     pkill -f ./manage_my_process
-    rm --one-file-system /var/run/my_process.pid
+    rm -f /var/run/my_process.pid
     ./manage_my_process &
     echo $$ > /var/run/my_process.pid
     echo "manage_my_process restarted"
